@@ -20,7 +20,7 @@ Input: arr[] = [10, 10, 10]
 Output: -1
 Explanation: The largest element of the array is 10 and the second largest element does not exist.
 
-🔧 Approach:
+Approach:
 - Initialize two variables: `max` and `second_max` to INT_MIN
 - Loop through the array
 - If current element > max → update both max and second_max
@@ -147,7 +147,7 @@ try to add this ->
 so what it does 
 | Input                 | Output   | Why?                           |
 | --------------------- | -------- | ------------------------------ |
-| \[1]                  | Error    | Not enough elements            |
-| \[5, 5]               | -1       | All elements are same          |
-| \[5, 10]              | 5        | Valid second largest           |
-| \[INT\_MAX, INT\_MIN] | INT\_MIN | Works because we used INT\_MIN |
+| [1]                   | Error    | Not enough elements            |
+| [5, 5]                | -1       | All elements are same          |
+| [5, 10]               | 5        | Valid second largest           |
+| [INT_MAX, INT_MIN]    | INT_MIN  | Works because we used INT_MIN |
